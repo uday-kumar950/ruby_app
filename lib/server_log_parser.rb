@@ -35,6 +35,6 @@ end
 
 
 
-# file_path = '/home/uday/Desktop/Smart_Pension_-_Take_Home_Ruby_test__14_/ruby_app/webserver.log'
-# parser =  ServerLogParser::Parser.new(file_path)
-# puts parser.result
+file_path = 'webserver.log'
+parser =  ServerLogParser::Parser.new(file_path)
+puts parser.result
